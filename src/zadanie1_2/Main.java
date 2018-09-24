@@ -2,6 +2,13 @@ package zadanie1_2;
 
 import java.util.ArrayList;
 
+/**
+ * @version 24.09.2018
+ * @author Viktor Chernyaev
+ * @Java3 homework Lesson-1
+ * @link https://github.com/des1z
+ */
+
 public class Main {
 
     public static void main(String[] args) {
