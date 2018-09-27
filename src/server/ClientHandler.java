@@ -5,7 +5,6 @@ import java.io.DataOutputStream;
 import java.io.IOException;
 import java.net.Socket;
 
-
 public class ClientHandler implements Runnable {
     private Socket sock;
     private Server owner;
@@ -67,7 +66,7 @@ public class ClientHandler implements Runnable {
                                 sendMsg("Невозможно поменять ник");
                             }
                         }
-                        if (str.startsWith("/pm")) { // /pm geekbrains hello java
+                        if (str.startsWith("/pm")) {
                             String sto = str.split(" ")[1];
                             String getmsg = str.substring(sto.length() + 5);
                             owner.personalMessage(this, sto, getmsg);
