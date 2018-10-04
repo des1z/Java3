@@ -1,4 +1,4 @@
-package java3hw4;
+package java3hw4.task1;
 
 public class Task1 {
     private final Object obj = new Object();
