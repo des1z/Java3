@@ -1,6 +1,6 @@
 package java3hw4.task1;
 
-public class Task1 {
+public class task1 {
     private final Object obj = new Object();
     private volatile char litera = 'A';
 

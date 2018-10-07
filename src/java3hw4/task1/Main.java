@@ -6,7 +6,7 @@ public class Main {
     }
 
     public static void Task1() {
-        Task1 t = new Task1();
+        task1 t = new task1();
         new Thread(() -> t.printA()).start();
         new Thread(() -> t.printB()).start();
         new Thread(() -> t.printC()).start();
