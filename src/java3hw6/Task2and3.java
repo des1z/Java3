@@ -9,9 +9,9 @@ import java.util.Arrays;
  * @link https://github.com/des1z
  */
 
-public class Task1and2 {
+public class Task2and3 {
     public static void main(String[] args) throws RuntimeException {
-        Task1and2 hw = new Task1and2();
+        Task2and3 hw = new Task2and3();
         System.out.println(Arrays.toString(hw.getNumberAfrerLastFour(
                 new int[]{1, 2, 4, 4, 2, 3, 4, 1, 7})));
         System.out.println(Arrays.toString(hw.getNumberAfrerLastFour(
